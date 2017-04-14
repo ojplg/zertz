@@ -201,13 +201,13 @@ int main
 		
 	// make the canvas
 	canvas = gnome_canvas_new_aa();
-	gnome_canvas_set_scroll_region( GNOME_CANVAS(canvas) , 0 , 0 , 400 , 400 );
+	gnome_canvas_set_scroll_region( GNOME_CANVAS(canvas) , 0 , 0 , 800 , 800 );
 	
 	// put the canvas into the window
 	gnome_app_set_contents( GNOME_APP(window) , (GtkWidget*) canvas );
 	
 	// size and show the window
-	gtk_window_set_default_size(GTK_WINDOW(window) , 400 , 453 );
+	gtk_window_set_default_size(GTK_WINDOW(window) , 800 , 906);
 	gtk_widget_show_all( window );
 
 	draw_board_accoutrements();

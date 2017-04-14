@@ -115,60 +115,60 @@ void init_net_play();
 
 // definitions for various magic number coordinates
 
-#define CANVAS_HEIGHT 400.0
-#define CANVAS_WIDTH 400.0
+#define CANVAS_HEIGHT 800.0
+#define CANVAS_WIDTH 800.0
 
 // These definitions are for drawing the various bins
-#define UNUSED_BIN_LEFT_X 280.0
-#define UNUSED_BIN_RIGHT_X 380.0
-#define UNUSED_BIN_TOP_Y 5.0
-#define UNUSED_BIN_BOTTOM_Y 250.0
+#define UNUSED_BIN_LEFT_X 560.0
+#define UNUSED_BIN_RIGHT_X 760.0
+#define UNUSED_BIN_TOP_Y 10.0
+#define UNUSED_BIN_BOTTOM_Y 500.0
 
-#define PLAYER1_BIN_LEFT_X 10.0
-#define PLAYER1_BIN_RIGHT_X 180.0 
-#define PLAYER1_BIN_TOP_Y 250.0
-#define PLAYER1_BIN_BOTTOM_Y 380.0
+#define PLAYER1_BIN_LEFT_X 20.0
+#define PLAYER1_BIN_RIGHT_X 360.0 
+#define PLAYER1_BIN_TOP_Y 500.0
+#define PLAYER1_BIN_BOTTOM_Y 760.0
 
-#define PLAYER2_BIN_LEFT_X 210.0
-#define PLAYER2_BIN_RIGHT_X 380.0
-#define PLAYER2_BIN_TOP_Y 250.0
-#define PLAYER2_BIN_BOTTOM_Y 380.0
+#define PLAYER2_BIN_LEFT_X 420.0
+#define PLAYER2_BIN_RIGHT_X 760.0
+#define PLAYER2_BIN_TOP_Y 500.0
+#define PLAYER2_BIN_BOTTOM_Y 760.0
 
 #define BIN_WIDTH 2
 
 #define PLAYER1_TAG "Player One Bin"
-#define PLAYER1_TAG_X 80.0
-#define PLAYER1_TAG_Y 260.0
+#define PLAYER1_TAG_X 160.0
+#define PLAYER1_TAG_Y 520.0
 #define PLAYER2_TAG "Player Two Bin"
-#define PLAYER2_TAG_X 270.0
-#define PLAYER2_TAG_Y 260.0
+#define PLAYER2_TAG_X 540.0
+#define PLAYER2_TAG_Y 520.0
 #define UNUSED_TAG "Unplayed Bin"
-#define UNUSED_TAG_X 330.0 
-#define UNUSED_TAG_Y 15.0
+#define UNUSED_TAG_X 660.0 
+#define UNUSED_TAG_Y 30.0
 
 #define TAG_FONT "-*-clean-bold-r-normal-*-16-*-*-*-*-*-*"
 
 // These definitions are for drawing the discs and marbles
-#define OUTER_DISC_WIDTH 30.0
-#define INNER_DISC_WIDTH 12.0
+#define OUTER_DISC_WIDTH 60.0
+#define INNER_DISC_WIDTH 24.0
 
-#define BASE_X_OFFSET 20.0 // how far the discs are from the left edge
-#define BASE_Y_OFFSET 20.0 // how far from the top edge
-#define UNIT_X_OFFSET 32.0 // center-to-center measure between discs horizontally
-#define UNIT_Y_OFFSET 29.0 // center-to-center measure between discs vertically
+#define BASE_X_OFFSET 40.0 // how far the discs are from the left edge
+#define BASE_Y_OFFSET 40.0 // how far from the top edge
+#define UNIT_X_OFFSET 64.0 // center-to-center measure between discs horizontally
+#define UNIT_Y_OFFSET 58.0 // center-to-center measure between discs vertically
 
-#define MARBLE_WIDTH 18.0
-#define BASE_MARBLE_X_OFFSET 300.0 // distance from top of the initial marble array
-#define BASE_MARBLE_Y_OFFSET 30.0 // distance from left of the initial marble array
-#define MARBLE_SPACE 22.0 // center-to-center marble distance
-#define MARBLE_BORDER_WIDTH 1
+#define MARBLE_WIDTH 36.0
+#define BASE_MARBLE_X_OFFSET 600.0 // distance from top of the initial marble array
+#define BASE_MARBLE_Y_OFFSET 60.0 // distance from left of the initial marble array
+#define MARBLE_SPACE 44.0 // center-to-center marble distance
+#define MARBLE_BORDER_WIDTH 2
 
 // These definitions are for putting the marbles in the players' bins
-#define PLAYER2_X_OFFSET 200.0
-#define BASE_BIN_X_OFFSET 22.0
-#define BASE_BIN_Y_OFFSET 280.0
-#define UNIT_BIN_X_OFFSET 25.0
-#define UNIT_BIN_Y_OFFSET 28.0
+#define PLAYER2_X_OFFSET 400.0
+#define BASE_BIN_X_OFFSET 44.0
+#define BASE_BIN_Y_OFFSET 560.0
+#define UNIT_BIN_X_OFFSET 50.0
+#define UNIT_BIN_Y_OFFSET 56.0
 
 
 

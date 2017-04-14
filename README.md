@@ -8,6 +8,6 @@ It was written in 2002 and 2003, so there is no version history in Git. I was im
 
 To try it out just clone and 
 
-./configure
-make
-./src/zertz
+    ./configure
+    make
+    ./src/zertz

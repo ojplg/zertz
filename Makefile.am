@@ -1,0 +1,5 @@
+SUBDIRS = src
+
+INCLUDES = $(ZERTZ_CFLAGS)  
+
+LDADD = $(ZERTZ_LIBS)

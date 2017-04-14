@@ -31,3 +31,11 @@
 # Debug files
 *.dSYM/
 *.su
+
+Makefile
+config.log
+config.status
+libtool
+src/Makefile
+src/zertz
+

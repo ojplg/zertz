@@ -11,3 +11,7 @@ To try it out just clone and
     ./configure
     make
     ./src/zertz
+
+# Screenshot
+
+![screenshot](http://pages.ripco.net/~lees/pics/zertz.png)

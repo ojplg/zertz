@@ -12,6 +12,6 @@ To try it out just clone and
     make
     ./src/zertz
 
-# Screenshot
+### Screenshot
 
 ![screenshot](http://pages.ripco.net/~lees/pics/zertz.png)

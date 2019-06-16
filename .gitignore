@@ -39,3 +39,4 @@ libtool
 src/Makefile
 src/zertz
 
+/build/

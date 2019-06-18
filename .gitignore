@@ -38,5 +38,6 @@ config.status
 libtool
 src/Makefile
 src/zertz
+src/.deps
 
 /build/

@@ -21,6 +21,11 @@ AM_PATH_CHECK
 
 AC_PROG_AWK
 
+AC_SEARCH_LIBS([floor], [m])
+AC_SEARCH_LIBS([timer_delete], [rt])
+AC_SEARCH_LIBS([subunit_test_fail], [subunit])
+
+
 AC_PATH_PROG(PKG_CONFIG, pkg-config)
 if test "!" -x "$PKG_CONFIG" ; then
    AC_MSG_ERROR([

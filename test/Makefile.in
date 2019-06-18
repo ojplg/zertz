@@ -103,7 +103,8 @@ CONFIG_CLEAN_FILES =
 CONFIG_CLEAN_VPATH_FILES =
 am_check_board_OBJECTS = check_board-check_board.$(OBJEXT)
 check_board_OBJECTS = $(am_check_board_OBJECTS)
-check_board_DEPENDENCIES = $(top_builddir)/src/board.la
+am__DEPENDENCIES_1 =
+check_board_DEPENDENCIES = $(am__DEPENDENCIES_1)
 AM_V_lt = $(am__v_lt_@AM_V@)
 am__v_lt_ = $(am__v_lt_@AM_DEFAULT_V@)
 am__v_lt_0 = --silent
@@ -504,9 +505,8 @@ top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 check_board_SOURCES = check_board.c $(top_builddir)/src/board.h
-check_board_CFLAGS = @CHECK_CFLAGS@
-check_board_LDADD = $(top_builddir)/src/board.la @CHECK_LIBS@
-LDADD = $(ZERTZ_LIBS)
+check_board_CFLAGS = @CHECK_CFLAGS@ $(ZERTZ_CFLAGS)
+check_board_LDADD = @CHECK_LIBS@ $(ZERTZ_LIBS)
 all: all-am
 
 .SUFFIXES:

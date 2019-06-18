@@ -41,6 +41,6 @@ src/zertz
 src/.deps
 test/.deps
 
-autom4te.cache/requests
+autom4te.cache/*
 
 /build/

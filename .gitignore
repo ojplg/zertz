@@ -44,3 +44,9 @@ test/.deps
 autom4te.cache/*
 
 /build/
+
+# check unit test files
+test/check_board
+test/check_board.log
+test/check_board.trs
+test/test-suite.log

@@ -37,6 +37,7 @@
 									<listOptionValue builtIn="false" value="/usr/include/libgnomeui-2.0/"/>
 									<listOptionValue builtIn="false" value="/usr/include/libgnome-2.0/libgnome/"/>
 									<listOptionValue builtIn="false" value="/usr/include/glib-2.0/glib/"/>
+									<listOptionValue builtIn="false" value="/usr/include/"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1744542684" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>

@@ -39,5 +39,6 @@ libtool
 src/Makefile
 src/zertz
 src/.deps
+test/.deps
 
 /build/
